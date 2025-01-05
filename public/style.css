@@ -1,0 +1,218 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Sour Gummy", serif;
+    box-sizing: border-box;
+    background-color: #1E1E1E;
+    color: white;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: cadetblue;
+    /* display: flex;
+    align-items: center;
+    padding-left: 50px; */
+    padding: 10px;
+    background-color: #1E1E1E;
+}
+
+.navbar div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 55px;
+    font-size: 1.5rem;
+    margin-top: -30px;
+    background-color: #1E1E1E;
+
+}
+
+.navbar img {
+    width: 70px;
+    height: 70px;
+    background-color: #1E1E1E;
+
+}
+
+.navbar div h1 {
+    background-color: #1E1E1E;
+
+}
+
+.searchbar {
+    width: 35%;
+    height: 50px;
+    display: flex;
+    background-color: rgb(217, 217, 217);
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 32.5vw;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.searchbar img {
+    background-color: rgb(217, 217, 217);
+    height: 40px;
+    width: 40px;
+    /* border-radius: 15px; */
+    cursor: pointer;
+}
+
+.searchbar input {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(217, 217, 217);
+    border: none;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    color: #1E1E1E;
+}
+
+/* .weatherCard {
+    width: 50%;
+    height: 450px;
+    background: linear-gradient(rgb(90, 255, 90), rgb(43, 251, 178), rgb(255, 79, 240), blue, pink);
+    margin-top: 60px;
+    margin-left: 25vw;
+
+} */
+
+
+.weatherCard {
+    width: 50%;
+    height: 450px;
+    background: linear-gradient(45deg, rgba(83, 255, 255, 0.7), rgba(50, 167, 199, 0.7), rgba(20, 93, 97, 0.7), rgba(60, 60, 60, 0.7));
+    backdrop-filter: blur(1px);
+    /* Reduced blur for less intensity */
+    border-radius: 15px;
+    border: 4px solid black;
+    margin-top: 60px;
+    margin-left: 25vw;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.2);
+}
+
+.locationDiv {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+    padding-left: 15px;
+    background-color: transparent;
+    /* border: 2px solid white; */
+}
+
+.locationDiv p {
+    font-size: 1.5rem;
+    margin-right: 5px;
+    background-color: transparent;
+}
+
+.locationDiv img {
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+}
+
+.weatherDiv {
+    width: 100%;
+    height: 125px;
+    /* border: 2px solid wheat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+.weatherDiv img:first-of-type {
+    height: 60px;
+    background-color: transparent;
+}
+
+.weatherDiv p {
+    background-color: transparent;
+    font-size: 5rem;
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+.weatherDiv p span {
+    background-color: transparent;
+}
+
+.weatherDiv img:last-of-type {
+    background-color: transparent;
+    height: 100px;
+}
+
+.dateDiv {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    background-color: transparent;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+.dateDiv p {
+    margin-left: 5px;
+    background-color: transparent;
+}
+
+.dateDiv i {
+    background-color: transparent;
+    font-size: 1.25rem;
+}
+
+.weatherDetailsDiv {
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.weatherDetailsDiv div {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    background-color: transparent;
+    padding-top: 70px;
+}
+
+.weatherDetailsDiv div p {
+    color: white;
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+
+.weatherDetailsDiv div p span {
+    color: white;
+    background-color: transparent;
+}
+
+.marginTop {
+    margin-top: 10px;
+}
+
+input:focus {
+    outline: none;
+    /* Removes the focus outline */
+    border: none;
+    /* Removes the border */
+    background-color: rgb(217, 217, 217);
+    color: #1E1E1E;
+}
