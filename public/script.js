@@ -18,6 +18,7 @@ let image = document.querySelector(".weatherDiv img:last-of-type");
 const apiKey = "169cbe95cfb3eeea0db57c8ec1a6b05d";
 
 // Function to Fetch Coordinates
+
 async function getCoordinates(cityName) {
     const url = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&appid=${apiKey}`;
     const response = await fetch(url);
@@ -28,6 +29,40 @@ async function getCoordinates(cityName) {
 
     return response.json();
 }
+
+
+
+
+// Function to Fetch Coordinates
+// async function getCoordinates(cityName) {
+//     const url = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}`;
+
+//     console.log( "fetching .....");
+
+//     const response = await fetch(url, {
+//         method: 'GET', // The method (GET, POST, etc.)
+//         headers: {
+//             'Content-Type': 'application/json', // Request type
+//             'Authorization': `Bearer ${apiKey}` // Set the API key in Authorization header
+//         }
+//     });
+
+//     console.log( response);
+
+//     if (!response.ok) {
+//         throw new Error("City not found!");
+//     }
+
+//     console.log( "done");
+
+//     return response.json();
+// }
+
+
+
+
+
+
 
 // Function to Fetch Weather Data
 async function getWeatherData(lat, lon) {
