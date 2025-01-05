@@ -28,8 +28,6 @@ WeatherMe is a simple weather application that provides real-time weather inform
 ## Demo
 
 [Click here to see the live demo](https://weatherme07.netlify.app).
-[Click here to see the live demo]() *(link can be added after deployment)*
-
 ## Setup
 
 1. **Clone the repository**:
