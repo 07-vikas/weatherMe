@@ -19,7 +19,7 @@ const apiKey = "169cbe95cfb3eeea0db57c8ec1a6b05d";
 
 // Function to Fetch Coordinates
 async function getCoordinates(cityName) {
-    const url = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&appid=${apiKey}`;
+    const url = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&appid=${apiKey}`;
     const response = await fetch(url);
 
     if (!response.ok) {
